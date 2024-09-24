@@ -17,6 +17,8 @@ const config: Config = {
       'slow-bounce': 'bounce 3s infinite',
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwind-scrollbar-hide')
+  ],
 };
 export default config;
