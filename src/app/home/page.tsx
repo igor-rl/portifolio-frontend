@@ -5,34 +5,7 @@ import CurrentQuote from "../components/phrases";
 
 function HomePage() {
 	return (
-		<div className="relative flex flex-col h-screen min-h-screen overflow-x-hidden">
-			{/* menu lateral direito */}
-			<div className="absolute flex flex-row w-screen h-24 px-11 items-center justify-end">
-				<Link
-					className="p-4 ml-3 rounded-lg shadow-xl border hover:text-slate-50 border-slate-500 hover:bg-slate-800"
-					href="/home"
-				>
-					home
-				</Link>
-				<Link
-					className="p-4 ml-3 rounded-lg shadow-xl border hover:text-slate-50 border-slate-500 hover:bg-slate-800"
-					href="/about"
-				>
-					about
-				</Link>
-				<Link
-					className="p-4 ml-3 rounded-lg shadow-xl border hover:text-slate-50 border-slate-500 hover:bg-slate-800"
-					href="/cool-projects"
-				>
-					cool projects
-				</Link>
-				<Link
-					className="p-4 ml-3 rounded-lg shadow-xl border hover:text-slate-50 border-slate-500 hover:bg-slate-800"
-					href="/contact"
-				>
-					contact
-				</Link>
-			</div>
+		<>
 			<div className="m-4 rounded-lg bg-slate-600 h-96 bg-[url('/laptop-5673901_1280.jpg')] bg-cover bg-center">
 				<div className="flex w-full h-full justify-center items-end">
 					<Image
@@ -63,8 +36,9 @@ function HomePage() {
 				<h1 className="z-10 text-xl text-gray-500 text-center mb-4">
 					<CurrentQuote />
 				</h1>
+				<div className="sm:hidden h-14"></div>
 			</div>
-		</div>
+		</>
 	);
 }
 export default HomePage;

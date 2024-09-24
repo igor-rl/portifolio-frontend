@@ -19,7 +19,7 @@ function AboutPage() {
 				<div className="w-1/4 bg-slate-900 flex flex-col items-center text-gray-100">
 					<div className="w-full p-5 flex flex-col items-center">
 						<img
-							src="/imagem-perfil-irl.png"
+							src="imagem-perfil-irl.png"
 							alt="Foto do usuário"
 							className="w-32 h-32 rounded-full mb-4 bg-slate-700"
 						/>
@@ -123,15 +123,27 @@ function AboutPage() {
 							</span>
 						</div>
 						<div className="flex flex-wrap">
-							<LogoIcon alt="scrum" name="Scrum" src="scrum_logo.png" />
-							<LogoIcon alt="kanban" name="Kanban" src="kanbanboard_logo.png" />
-							<LogoIcon alt="devops" name="DevOps" src="devops_logo.png" />
+							<LogoIcon alt="scrum" name="Scrum" src="icons/scrum_logo.png" />
+							<LogoIcon
+								alt="kanban"
+								name="Kanban"
+								src="icons/kanbanboard_logo.png"
+							/>
+							<LogoIcon
+								alt="devops"
+								name="DevOps"
+								src="icons/devops_logo.png"
+							/>
 							<LogoIcon
 								alt="Azure DevOps"
 								name="Azure DevOps"
-								src="azure_devops_logo.png"
+								src="icons/azure_devops_logo.png"
 							/>
-							<LogoIcon alt="github" name="gitActions" src="git_logo.png" />
+							<LogoIcon
+								alt="github"
+								name="gitActions"
+								src="icons/git_logo.png"
+							/>
 						</div>
 					</div>
 
@@ -152,14 +164,14 @@ function AboutPage() {
 							<LogoIcon
 								alt="Google Cloud"
 								name="Google Cloud"
-								src="google_cloud_logo.png"
+								src="icons/google_cloud_logo.png"
 							/>
-							<LogoIcon alt="AWS" name="AWS" src="aws_logo.png" />
-							<LogoIcon alt="Azure" name="Azure" src="azure_logo.png" />
+							<LogoIcon alt="AWS" name="AWS" src="icons/aws_logo.png" />
+							<LogoIcon alt="Azure" name="Azure" src="icons/azure_logo.png" />
 							<LogoIcon
 								alt="terraform"
 								name="Terraform"
-								src="terraform_logo.png"
+								src="icons/terraform_logo.png"
 							/>
 						</div>
 					</div>
@@ -170,11 +182,15 @@ function AboutPage() {
 							</span>
 						</div>
 						<div className="flex flex-wrap">
-							<LogoIcon alt="Docker" name="Docker" src="docker_logo.png" />
+							<LogoIcon
+								alt="Docker"
+								name="Docker"
+								src="icons/docker_logo.png"
+							/>
 							<LogoIcon
 								alt="Kubernetes"
 								name="Kubernetes"
-								src="kubernetes_logo.png"
+								src="icons/kubernetes_logo.png"
 							/>
 						</div>
 					</div>
@@ -185,8 +201,12 @@ function AboutPage() {
 							</span>
 						</div>
 						<div className="flex flex-wrap">
-							<LogoIcon alt="git" name="git" src="git_logo.png" />
-							<LogoIcon alt="github" name="github" src="github_logo.png" />
+							<LogoIcon alt="git" name="git" src="icons/git_logo.png" />
+							<LogoIcon
+								alt="github"
+								name="github"
+								src="icons/github_logo.png"
+							/>
 						</div>
 					</div>
 					{/* Seção de Conhecimentos na Área de Desenvolvimento */}
@@ -203,8 +223,16 @@ function AboutPage() {
 							</span>
 						</div>
 						<div className="flex flex-wrap">
-							<LogoIcon alt="Kafka" name="Kafka" src="apache_kafka_logo.png" />
-							<LogoIcon alt="RabbiMQ" name="RabbiMQ" src="rabbitmq_logo.png" />
+							<LogoIcon
+								alt="Kafka"
+								name="Kafka"
+								src="icons/apache_kafka_logo.png"
+							/>
+							<LogoIcon
+								alt="RabbiMQ"
+								name="RabbiMQ"
+								src="icons/rabbitmq_logo.png"
+							/>
 						</div>
 					</div>
 					<div className="flex flex-wrap mb-2 items-stretch">
@@ -214,7 +242,11 @@ function AboutPage() {
 							</span>
 						</div>
 						<div className="flex flex-wrap">
-							<LogoIcon alt="golang" name="golang" src="golang_logo.png" />
+							<LogoIcon
+								alt="golang"
+								name="golang"
+								src="icons/golang_logo.png"
+							/>
 						</div>
 					</div>
 					<div className="flex flex-wrap mb-2 items-stretch">
@@ -224,20 +256,36 @@ function AboutPage() {
 							</span>
 						</div>
 						<div className="flex flex-wrap">
-							<LogoIcon alt="node.js" name="node.js" src="nodejs_logo.png" />
+							<LogoIcon
+								alt="node.js"
+								name="node.js"
+								src="icons/nodejs_logo.png"
+							/>
 							<LogoIcon
 								alt="TypeScript"
 								name="TypeScript"
-								src="typescript_logo.png"
+								src="icons/typescript_logo.png"
 							/>
-							<LogoIcon alt="NestJS" name="NestJS" src="nestjs_icon.png" />
-							<LogoIcon alt="React" name="React" src="react_logo.png" />
-							<LogoIcon alt="NextJS" name="NextJS" src="nextjs_icon.png" />
-							<LogoIcon alt="Angular" name="Angular" src="angular_logo.png" />
+							<LogoIcon
+								alt="NestJS"
+								name="NestJS"
+								src="icons/nestjs_icon.png"
+							/>
+							<LogoIcon alt="React" name="React" src="icons/react_logo.png" />
+							<LogoIcon
+								alt="NextJS"
+								name="NextJS"
+								src="icons/nextjs_icon.png"
+							/>
+							<LogoIcon
+								alt="Angular"
+								name="Angular"
+								src="icons/angular_logo.png"
+							/>
 							<LogoIcon
 								alt="tailwind"
 								name="tailwind"
-								src="tailwind_logo.png"
+								src="icons/tailwind_logo.png"
 							/>
 						</div>
 					</div>
@@ -249,25 +297,33 @@ function AboutPage() {
 							</span>
 						</div>
 						<div className="flex flex-wrap">
-							<LogoIcon alt="php" name="php" src="php_logo.png" />
-							<LogoIcon alt="apache" name="apache" src="apache_logo.png" />
-							<LogoIcon alt="html" name="html" src="html_logo.png" />
-							<LogoIcon alt="css" name="css" src="css_logo.png" />
+							<LogoIcon alt="php" name="php" src="icons/php_logo.png" />
+							<LogoIcon
+								alt="apache"
+								name="apache"
+								src="icons/apache_logo.png"
+							/>
+							<LogoIcon alt="html" name="html" src="icons/html_logo.png" />
+							<LogoIcon alt="css" name="css" src="icons/css_logo.png" />
 							<LogoIcon
 								alt="javascript"
 								name="javascript"
-								src="javascript_logo.png"
+								src="icons/javascript_logo.png"
 							/>
-							<LogoIcon alt="jquery" name="jquery" src="jquery_logo.png" />
+							<LogoIcon
+								alt="jquery"
+								name="jquery"
+								src="icons/jquery_logo.png"
+							/>
 							<LogoIcon
 								alt="bootstrap"
 								name="bootstrap"
-								src="bootstrap_logo.png"
+								src="icons/bootstrap_logo.png"
 							/>
 							<LogoIcon
 								alt="wordpress"
 								name="wordpress"
-								src="wordpress_logo.png"
+								src="icons/wordpress_logo.png"
 							/>
 						</div>
 					</div>
@@ -287,13 +343,17 @@ function AboutPage() {
 							</span>
 						</div>
 						<div className="flex flex-wrap">
-							<LogoIcon alt="MySQL" name="MySQL" src="mysql_logo.png" />
+							<LogoIcon alt="MySQL" name="MySQL" src="icons/mysql_logo.png" />
 							<LogoIcon
 								alt="Postgres"
 								name="Postgres"
-								src="postgresql_logo.png"
+								src="icons/postgresql_logo.png"
 							/>
-							<LogoIcon alt="sqlite" name="sqlite" src="sqlite_logo.png" />
+							<LogoIcon
+								alt="sqlite"
+								name="sqlite"
+								src="icons/sqlite_logo.png"
+							/>
 						</div>
 					</div>
 
@@ -304,8 +364,12 @@ function AboutPage() {
 							</span>
 						</div>
 						<div className="flex flex-wrap">
-							<LogoIcon alt="MongoDB" name="MongoDB" src="mongo_logo.png" />
-							<LogoIcon alt="Redis" name="Redis" src="redis_logo.png" />
+							<LogoIcon
+								alt="MongoDB"
+								name="MongoDB"
+								src="icons/mongo_logo.png"
+							/>
+							<LogoIcon alt="Redis" name="Redis" src="icons/redis_logo.png" />
 						</div>
 					</div>
 
@@ -316,11 +380,16 @@ function AboutPage() {
 					>
 						Histórico Profissional
 					</h1>
-					<ul className="list-disc ml-6 mb-8 w-3/5">
-						<li className="mb-6">
-							<strong>Desenvolvedor Pleno - Excellent Sistemas</strong> (Desde
-							fevereiro de 2024)
-							<ul className="ml-4">
+					<ul className="list-disc ml-6 mb-8 w-3/5 space-y-8">
+						{/* Desenvolvedor Pleno */}
+						<li>
+							<h2 className="font-semibold text-lg">
+								Desenvolvedor Pleno - Excellent Sistemas
+							</h2>
+							<span className="text-sm text-gray-500">
+								Desde fevereiro de 2024
+							</span>
+							<ul className="ml-4 list-disc mt-2 space-y-3 text-justify">
 								<li>
 									Obtenção de capacitação técnica contínua para implementar e
 									estabelecer padrões de desenvolvimento de arquitetura de
@@ -329,18 +398,18 @@ function AboutPage() {
 									Architecture, Ports and Adapters, SOLID, CI e CD.
 								</li>
 								<li>
-									Com o auxílio da equipe, analiso novas estratégias e modelamos
-									os padrões de arquitetura já adotados para criar softwares
-									sustentáveis, escaláveis, rentáveis e que agreguem valor para
-									a empresa, clientes e desenvolvedores.
+									Análise de novas estratégias e modelagem de padrões de
+									arquitetura adotados, em colaboração com a equipe, para criar
+									softwares sustentáveis, escaláveis e que agreguem valor para a
+									empresa, clientes e desenvolvedores.
 								</li>
 								<li>
-									Refatoração de projetos para incluir as modelagens de designer
-									e arquiteturas adotadas.
+									Refatoração de projetos para incluir modelagens de design e
+									arquiteturas adotadas.
 								</li>
 								<li>
-									Outras responsabilidades envolvem:
-									<ul className="ml-4">
+									Outras responsabilidades:
+									<ul className="ml-4 list-disc mt-1 space-y-2">
 										<li>
 											Planejar atividades e etapas de construção das aplicações
 											e atualizar o progresso do desenvolvimento no Azure
@@ -369,10 +438,15 @@ function AboutPage() {
 							</ul>
 						</li>
 
-						<li className="mb-6">
-							<strong>Desenvolvedor Júnior - Excellent Sistemas</strong> (De
-							junho de 2022 à janeiro de 2024)
-							<ul className="ml-4">
+						{/* Desenvolvedor Júnior */}
+						<li>
+							<h2 className="font-semibold text-lg">
+								Desenvolvedor Júnior - Excellent Sistemas
+							</h2>
+							<span className="text-sm text-gray-500">
+								Junho de 2022 - Janeiro de 2024
+							</span>
+							<ul className="ml-4 list-disc mt-2 space-y-3 text-justify">
 								<li>
 									Elaboração e desenvolvimento de novas funcionalidades para o
 									sistema PHP, seguindo as atividades planejadas.
@@ -413,9 +487,13 @@ function AboutPage() {
 							</ul>
 						</li>
 
-						<li className="mb-6">
-							<strong>Desenvolvedor Web Autônomo</strong> (2019 - 2022)
-							<ul className="ml-4">
+						{/* Desenvolvedor Web Autônomo */}
+						<li>
+							<h2 className="font-semibold text-lg">
+								Desenvolvedor Web Autônomo
+							</h2>
+							<span className="text-sm text-gray-500">2019 - 2022</span>
+							<ul className="ml-4 list-disc mt-2 space-y-3 text-justify">
 								<li>
 									Desenvolvimento de sites e aplicações web sob demanda para
 									pequenos negócios e clientes individuais.
