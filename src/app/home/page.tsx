@@ -6,7 +6,7 @@ import CurrentQuote from "../components/phrases";
 function HomePage() {
 	return (
 		<>
-			<div className="m-4 rounded-lg bg-slate-600 h-96 bg-[url('/laptop-5673901_1280.jpg')] bg-cover bg-center">
+			<div className="rounded-lg bg-slate-600 h-96 bg-[url('/laptop-5673901_1280.jpg')] bg-cover bg-center">
 				<div className="flex w-full h-full justify-center items-end">
 					<Image
 						className="mb-2 z-10"
