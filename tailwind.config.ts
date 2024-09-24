@@ -13,6 +13,9 @@ const config: Config = {
         foreground: "var(--foreground)",
       },
     },
+    animation: {
+      'slow-bounce': 'bounce 3s infinite',
+    },
   },
   plugins: [],
 };
